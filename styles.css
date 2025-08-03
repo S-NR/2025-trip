@@ -196,6 +196,21 @@ body {
   width: 180px;
 }
 
+.video-container {
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  border-radius: 12px;
+  overflow: hidden;
+  background: #000;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 
 
 /* 📱 Responsive Layout */
